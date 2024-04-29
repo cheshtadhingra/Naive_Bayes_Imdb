@@ -10,6 +10,7 @@ such that:
 The Naive Bayes text classification understands the data that you are going to work with and converts the document into the form of a vocabulary by removing stop words(the words that are grammatical and carry no significance whilst creating a vocabulary like is, and, or, etc.)
 
 We convert the data we have into a 'Bag of words Representation' format which generally breaks down the sentences and creates a frequency table type of format
+
 ![image](https://github.com/cheshtadhingra/Naive_Bayes_Imdb/assets/71834443/3ce763c6-469f-4ac3-8a82-731870e85136)
 
 Later on, we train the dataset on our MultinomialNaiveBayes/BinomialNaiveBayes classifier depending on the type of class labels, and calculate our evaluation metrics. 
